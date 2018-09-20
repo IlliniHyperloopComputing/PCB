@@ -10,7 +10,7 @@ After you’ve got your git repository up and running you’re going to want to 
 
 ### Prerequisites
 
-*Eagle 
+* Eagle 
 
 
 ## Authors
