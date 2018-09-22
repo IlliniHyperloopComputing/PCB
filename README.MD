@@ -17,4 +17,4 @@ After you’ve got your git repository up and running you’re going to want to 
 
 * **Matthew-Klock** - *Team Lead* - [Matthew Klock](https://github.com/Matthew-Klock)
 
-See also the list of [team members](https://github.com/Matthew-Klock/Illini-Hyperloop-PCB/contributors) who participated in this project.
+See also the list of [team members](https://github.com/orgs/IlliniHyperloopComputing/teams/pcb-team) who participated in this project.
