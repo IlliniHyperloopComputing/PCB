@@ -10,7 +10,7 @@ The shared development environment for the Illini Hyperloop PCB team. Contains a
 ## Getting Started
 
 1. [Obtain full student copy of Eagle.](https://www.autodesk.com/education/free-software/eagle)
-2. Create a branch of the repository with your name.
+2. Create a branch of the 'Pod4' with your name.
 3. Checkout the branch into a folder in the folder where EAGLE is installed. 
 4. Add the respective paths to libraries, boards, etc in EAGLE (Options>Directories).
 
