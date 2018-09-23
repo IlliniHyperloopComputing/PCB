@@ -4,8 +4,7 @@ The shared development environment for the Illini Hyperloop PCB team. Contains a
 
 ## Repo layout:
 1. Default branch is `pod4`, and pull requests must be made to merge into it
-2. There are tags for older versions of the pod code
-3. `master` branch will only be used for correct, working code. A pull request must be made to merge
+2. `master` branch will only be used for correct, working code. A pull request must be made to merge
 
 ## Getting Started
 
