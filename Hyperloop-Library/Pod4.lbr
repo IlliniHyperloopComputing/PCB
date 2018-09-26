@@ -74,12 +74,6 @@
 <library>
 <packages>
 <package name="MXC6255XC">
-<pad name="5" x="0.225" y="0" drill="0.25" diameter="0.28" shape="square" rot="R180"/>
-<pad name="2" x="-0.225" y="0" drill="0.25" diameter="0.28" shape="square" rot="R180"/>
-<pad name="1" x="-0.225" y="0.45" drill="0.25" diameter="0.28" shape="square" rot="R180"/>
-<pad name="4" x="0.225" y="0.45" drill="0.25" diameter="0.28" shape="square" rot="R180"/>
-<pad name="6" x="0.225" y="-0.45" drill="0.25" diameter="0.28" shape="square" rot="R180"/>
-<pad name="3" x="-0.225" y="-0.45" drill="0.25" diameter="0.28" shape="square" rot="R180"/>
 <wire x1="-0.59" y1="0.85" x2="0.59" y2="0.85" width="0.127" layer="51"/>
 <wire x1="0.59" y1="0.85" x2="0.59" y2="-0.85" width="0.127" layer="51"/>
 <wire x1="0.59" y1="-0.85" x2="-0.59" y2="-0.85" width="0.127" layer="51"/>
@@ -90,6 +84,12 @@
 <wire x1="0.59" y1="0.85" x2="0.59" y2="-0.85" width="0.127" layer="21"/>
 <text x="-2.64" y="1.28" size="1" layer="25">&gt;NAME</text>
 <text x="-2.55" y="-2.07" size="1" layer="25">&gt;VALUE</text>
+<smd name="1" x="-0.235" y="0.45" dx="0.28" dy="0.25" layer="1"/>
+<smd name="3" x="-0.235" y="-0.45" dx="0.28" dy="0.25" layer="1"/>
+<smd name="4" x="0.235" y="0.45" dx="0.28" dy="0.25" layer="1"/>
+<smd name="5" x="0.235" y="0" dx="0.28" dy="0.25" layer="1"/>
+<smd name="6" x="0.235" y="-0.45" dx="0.28" dy="0.25" layer="1"/>
+<smd name="2" x="-0.235" y="0" dx="0.28" dy="0.25" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -134,11 +134,11 @@ Datasheet: &lt;a href"https://www.memsic.com/userfiles/files/Datasheets/Accelero
 <device name="" package="MXC6255XC">
 <connects>
 <connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="INT" pad="4"/>
+<connect gate="G$1" pin="INT" pad="6"/>
 <connect gate="G$1" pin="NC" pad="2"/>
 <connect gate="G$1" pin="SCL" pad="1"/>
 <connect gate="G$1" pin="SDA" pad="5"/>
-<connect gate="G$1" pin="VDD" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
