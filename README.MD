@@ -23,7 +23,7 @@ The shared development environment for the Illini Hyperloop PCB team. Contains a
 
 ## Pull Requests
 * Write a short description of what you did for the request.
-* Please add your devices to Pod4.lbr, do not make them their own library.
+* Please add your devices to Hyperloop-Library/Pod4.lbr, do not make them their own library.
 
 
 ## Authors
