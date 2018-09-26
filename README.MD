@@ -16,6 +16,8 @@ The shared development environment for the Illini Hyperloop PCB team. Contains a
 6. Make your updates/ changes
 7. `git status` to view changes, and use `git add *file* ` to add files, and then `git commit -m "your-message"`. 
 8. `git push origin *YOUR-NAME* `. If there is an issue, do what `git` suggests you run, or it might be because you are not a member of our GitHub organization (Contact us).
+## Pull Requests
+* Please add your devices to Pod4.lbr, Do not make them their own library
 
 ### Prerequisites
 
