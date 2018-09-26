@@ -15,11 +15,15 @@ The shared development environment for the Illini Hyperloop PCB team. Contains a
 5. Add the respective paths to libraries, boards, etc in EAGLE (Options>Directories).
 6. Make your updates/ changes
 7. `git status` to view changes, and use `git add *file* ` to add files, and then `git commit -m "your-message"`. 
-7. `git push origin *YOUR-NAME* `. If there is an issue, do what `git` suggests you run, or it might be because you are not a member of our GitHub organization (Contact us).
+8. `git push origin *YOUR-NAME* `. If there is an issue, do what `git` suggests you run, or it might be because you are not a member of our GitHub organization (Contact us).
 
 ### Prerequisites
 
 * Eagle 
+
+## Pull Requests
+* Write a short description of what you did for the request.
+* Please add your devices to Hyperloop-Library/Pod4.lbr, do not make them their own library.
 
 
 ## Authors
