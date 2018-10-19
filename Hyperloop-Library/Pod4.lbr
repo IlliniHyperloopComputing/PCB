@@ -373,48 +373,12 @@ we are adding extending wire, whose one end connect the pins in this board and t
 <smd name="11" x="0.55" y="-1.4" dx="0.2" dy="0.1" layer="1" rot="R90"/>
 <smd name="12" x="0.95" y="-1.4" dx="0.2" dy="0.1" layer="1" rot="R90"/>
 <smd name="P$26" x="0" y="0.01" dx="0.3" dy="0.2" layer="1"/>
-=======
-<package name="LIS3DH">
-<smd name="7" x="0" y="-1.225" dx="0.25" dy="0.35" layer="1"/>
-<smd name="6" x="0.5" y="-1.225" dx="0.25" dy="0.35" layer="1"/>
-<smd name="8" x="-0.5" y="-1.225" dx="0.25" dy="0.35" layer="1"/>
-<smd name="15" x="0" y="1.225" dx="0.25" dy="0.35" layer="1"/>
-<smd name="16" x="0.5" y="1.225" dx="0.25" dy="0.35" layer="1"/>
-<smd name="14" x="-0.5" y="1.225" dx="0.25" dy="0.35" layer="1"/>
-<smd name="11" x="-1.225" y="0" dx="0.35" dy="0.25" layer="1"/>
-<smd name="12" x="-1.225" y="0.5" dx="0.35" dy="0.25" layer="1"/>
-<smd name="13" x="-1.225" y="1" dx="0.35" dy="0.25" layer="1"/>
-<smd name="10" x="-1.225" y="-0.5" dx="0.35" dy="0.25" layer="1"/>
-<smd name="9" x="-1.225" y="-1" dx="0.35" dy="0.25" layer="1"/>
-<smd name="3" x="1.225" y="0" dx="0.35" dy="0.25" layer="1"/>
-<smd name="2" x="1.225" y="0.5" dx="0.35" dy="0.25" layer="1"/>
-<smd name="1" x="1.225" y="1" dx="0.35" dy="0.25" layer="1"/>
-<smd name="4" x="1.225" y="-0.5" dx="0.35" dy="0.25" layer="1"/>
-<smd name="5" x="1.225" y="-1" dx="0.35" dy="0.25" layer="1"/>
-<circle x="1.375" y="1.1" radius="0.025" width="0" layer="21"/>
 <wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
-
 <text x="-4.11" y="2.34" size="1.27" layer="21">MPU-9250</text>
 <circle x="-0.65" y="0.55" radius="0.070709375" width="0" layer="21"/>
-<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
-<text x="-0.725" y="1.725" size="0.3" layer="21">LIS3DH</text>
-</package>
-<package name="NTCLE100E3">
-<description>NTCLE100E3 (Since the pins of the original NTCLE100E3 is not long enough to stretch from the pcb baord to the detecting components, 
-we are adding extending wire, whose one end connect the pins in this board and the other end connect the pin of the NTC resistor
-)</description>
-<pad name="P$1" x="-2" y="0" drill="0.9" diameter="1.4224" shape="offset" rot="R270"/>
-<pad name="P$2" x="2" y="0" drill="0.9" diameter="1.4224" shape="offset" rot="R270"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
 </package>
 </packages>
 <symbols>
@@ -505,55 +469,6 @@ Datasheet Link: https://cdn.sparkfun.com/datasheets/Sensors/Temp/ntcle100.pdf;</
 <wire x1="35.56" y1="-35.56" x2="35.56" y2="35.56" width="0.254" layer="94"/>
 <wire x1="35.56" y1="35.56" x2="-35.56" y2="35.56" width="0.254" layer="94"/>
 <text x="-17.78" y="50.8" size="5.08" layer="95">MPU-9250</text>
-<symbol name="LIS3DH">
-<pin name="VDD_IO" x="-15.24" y="5.08" length="middle"/>
-<pin name="NC" x="-15.24" y="2.54" length="middle"/>
-<pin name="NC_" x="-15.24" y="0" length="middle"/>
-<pin name="SPC" x="-15.24" y="-2.54" length="middle"/>
-<pin name="GND" x="-15.24" y="-5.08" length="middle"/>
-<pin name="SDI" x="-2.54" y="-20.32" length="middle" rot="R90"/>
-<pin name="SDO" x="0" y="-20.32" length="middle" rot="R90"/>
-<pin name="CS" x="2.54" y="-20.32" length="middle" rot="R90"/>
-<pin name="INT2" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="RES" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="INT1" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="GND_2" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="ADC3" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="VDD" x="2.54" y="20.32" length="middle" rot="R270"/>
-<pin name="ADC2" x="0" y="20.32" length="middle" rot="R270"/>
-<pin name="ADC1" x="-2.54" y="20.32" length="middle" rot="R270"/>
-<wire x1="-10.16" y1="15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
-<text x="5.08" y="17.78" size="1.778" layer="95">LIS3DH</text>
-</symbol>
-<symbol name="NTCLE100E3">
-<description>NTCLE100E3
-
-Resistance value at 25 °C: 3.3 to 470K (depended on chosen value of NTC resistor);
-Operating temperature range: -40 to +125 °C;
-Response time: 1.2s;
-Thermal time constant: 15s;
-
-Comments: Since the pins of the NECLE100E3 is not long enought to stretch from the pcb board to the detecting components, we should add two extending wires to each of the pin and then connect to the pcb board.
-
-Datasheet Link: https://cdn.sparkfun.com/datasheets/Sensors/Temp/ntcle100.pdf;</description>
-<wire x1="-15" y1="2" x2="-15" y2="0" width="0.254" layer="94"/>
-<wire x1="-15" y1="0" x2="-11" y2="0" width="0.254" layer="94"/>
-<wire x1="-11" y1="0" x2="-11" y2="1" width="0.254" layer="94"/>
-<wire x1="-11" y1="1" x2="-11" y2="2" width="0.254" layer="94"/>
-<wire x1="-11" y1="2" x2="-15" y2="2" width="0.254" layer="94"/>
-<pin name="P$1" x="-20" y="1" length="middle"/>
-<pin name="P$2" x="-6" y="1" length="middle" rot="R180"/>
-<text x="-15" y="-1" size="0.6096" layer="94" ratio="5">NTCLE100E3 </text>
-
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
 </symbol>
 </symbols>
 <devicesets>
@@ -684,59 +599,6 @@ Datasheet: &lt;a href"https://cdn.sparkfun.com/datasheets/Sensors/Temp/ntcle100.
 <connect gate="G$1" pin="SDA/SCI" pad="24"/>
 <connect gate="G$1" pin="VDD" pad="13"/>
 <connect gate="G$1" pin="VDDIO" pad="8"/>
-<deviceset name="LIS3DH" prefix="ACC.">
-<gates>
-<gate name="G$1" symbol="LIS3DH" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LIS3DH">
-<connects>
-<connect gate="G$1" pin="ADC1" pad="16"/>
-<connect gate="G$1" pin="ADC2" pad="15"/>
-<connect gate="G$1" pin="ADC3" pad="13"/>
-<connect gate="G$1" pin="CS" pad="8"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="GND_2" pad="12"/>
-<connect gate="G$1" pin="INT1" pad="11"/>
-<connect gate="G$1" pin="INT2" pad="9"/>
-<connect gate="G$1" pin="NC" pad="2"/>
-<connect gate="G$1" pin="NC_" pad="3"/>
-<connect gate="G$1" pin="RES" pad="10"/>
-<connect gate="G$1" pin="SDI" pad="6"/>
-<connect gate="G$1" pin="SDO" pad="7"/>
-<connect gate="G$1" pin="SPC" pad="4"/>
-<connect gate="G$1" pin="VDD" pad="14"/>
-<connect gate="G$1" pin="VDD_IO" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="NTCLE100E3">
-<description>&lt;html&gt;
-&lt;body&gt;
-&lt;ul&gt;
-	&lt;li&gt;Price ($)	: 0.3&lt;/li&gt;
-	&lt;li&gt;Output Data Typ:	Analog&lt;/li&gt;
-	&lt;li&gt;Size (mm):	24 ± 1.5 x 5.0&lt;/li&gt;
-	&lt;li&gt;Pin Size (diameter/mm):	0.6 ± 0.06&lt;/li&gt;
-	&lt;li&gt;Operating temperature range(°C):	- 40 to + 125&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-Datasheet: &lt;a href"https://cdn.sparkfun.com/datasheets/Sensors/Temp/ntcle100.pdf"&gt; https://cdn.sparkfun.com/datasheets/Sensors/Temp/ntcle100.pdf  &lt;/a&gt;
-&lt;/body&gt;
-&lt;/html&gt;</description>
-<gates>
-<gate name="G$1" symbol="NTCLE100E3" x="12.7" y="0"/>
-</gates>
-<devices>
-<device name="" package="NTCLE100E3">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-
 </connects>
 <technologies>
 <technology name=""/>
