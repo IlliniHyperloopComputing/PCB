@@ -323,7 +323,7 @@
 <pin name="EQ16" x="15.24" y="76.2" length="middle" rot="R270"/>
 <pin name="VSENSE15" x="12.7" y="76.2" length="middle" rot="R270"/>
 <pin name="EQ15" x="10.16" y="76.2" length="middle" rot="R270"/>
-<wire x1="68.58" y1="71.12" x2="-2.54" y2="71.12" width="0.254" layer="94"/
+<wire x1="68.58" y1="71.12" x2="-2.54" y2="71.12" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
