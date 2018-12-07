@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -261,90 +261,90 @@
 <text x="5.08" y="17.78" size="1.778" layer="95">LIS3DH</text>
 </symbol>
 <symbol name="BQ76PL455A-Q1">
-<pin name="VSENSE14" x="-7.62" y="60.96" length="middle"/>
-<pin name="EQ14" x="-7.62" y="58.42" length="middle"/>
-<pin name="VSENSE13" x="-7.62" y="55.88" length="middle"/>
-<pin name="EQ13" x="-7.62" y="53.34" length="middle"/>
-<pin name="VSENSE12" x="-7.62" y="50.8" length="middle"/>
-<pin name="EQ12" x="-7.62" y="48.26" length="middle"/>
-<pin name="VSENSE11" x="-7.62" y="45.72" length="middle"/>
-<pin name="EQ11" x="-7.62" y="43.18" length="middle"/>
-<pin name="VSENSE10" x="-7.62" y="40.64" length="middle"/>
-<pin name="EQ10" x="-7.62" y="38.1" length="middle"/>
-<pin name="VSENSE9" x="-7.62" y="35.56" length="middle"/>
-<pin name="EQ9" x="-7.62" y="33.02" length="middle"/>
-<pin name="VSENSE8" x="-7.62" y="30.48" length="middle"/>
-<pin name="EQ8" x="-7.62" y="27.94" length="middle"/>
-<pin name="VSENSE7" x="-7.62" y="25.4" length="middle"/>
-<pin name="EQ7" x="-7.62" y="22.86" length="middle"/>
-<pin name="VSENSE6" x="-7.62" y="20.32" length="middle"/>
-<pin name="EQ6" x="-7.62" y="17.78" length="middle"/>
-<pin name="VSENSE5" x="-7.62" y="15.24" length="middle"/>
-<pin name="EQ5" x="-7.62" y="12.7" length="middle"/>
-<wire x1="-2.54" y1="71.12" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<pin name="VSENSE4" x="7.62" y="-5.08" length="middle" rot="R90"/>
-<pin name="EQ4" x="10.16" y="-5.08" length="middle" rot="R90"/>
-<pin name="VSENSE3" x="12.7" y="-5.08" length="middle" rot="R90"/>
-<pin name="EQ3" x="15.24" y="-5.08" length="middle" rot="R90"/>
-<pin name="VSENSE2" x="17.78" y="-5.08" length="middle" rot="R90"/>
-<pin name="EQ2" x="20.32" y="-5.08" length="middle" rot="R90"/>
-<pin name="VSENSE1" x="22.86" y="-5.08" length="middle" rot="R90"/>
-<pin name="EQ1" x="25.4" y="-5.08" length="middle" rot="R90"/>
-<pin name="VSENSE0" x="27.94" y="-5.08" length="middle" rot="R90"/>
-<pin name="DGND1" x="30.48" y="-5.08" length="middle" rot="R90"/>
-<pin name="VM" x="33.02" y="-5.08" length="middle" rot="R90"/>
-<pin name="CHP" x="35.56" y="-5.08" length="middle" rot="R90"/>
-<pin name="CHM" x="38.1" y="-5.08" length="middle" rot="R90"/>
-<pin name="VDIG" x="40.64" y="-5.08" length="middle" rot="R90"/>
-<pin name="DG_ND2" x="43.18" y="-5.08" length="middle" rot="R90"/>
-<pin name="NC1" x="45.72" y="-5.08" length="middle" rot="R90"/>
-<pin name="DG_ND3" x="48.26" y="-5.08" length="middle" rot="R90"/>
-<pin name="TX" x="50.8" y="-5.08" length="middle" rot="R90"/>
-<pin name="RX" x="53.34" y="-5.08" length="middle" rot="R90"/>
-<pin name="FAULT_N" x="55.88" y="-5.08" length="middle" rot="R90"/>
-<wire x1="-2.54" y1="0" x2="68.58" y2="0" width="0.254" layer="94"/>
-<pin name="VIO" x="73.66" y="10.16" length="middle" rot="R180"/>
-<pin name="GPIO5" x="73.66" y="12.7" length="middle" rot="R180"/>
-<pin name="GPIO4" x="73.66" y="15.24" length="middle" rot="R180"/>
-<pin name="GPIO3" x="73.66" y="17.78" length="middle" rot="R180"/>
-<pin name="GPIO2" x="73.66" y="20.32" length="middle" rot="R180"/>
-<pin name="GPIO1" x="73.66" y="22.86" length="middle" rot="R180"/>
-<pin name="GPIO0" x="73.66" y="25.4" length="middle" rot="R180"/>
-<pin name="CGND" x="73.66" y="27.94" length="middle" rot="R180"/>
-<pin name="WAKEUP" x="73.66" y="30.48" length="middle" rot="R180"/>
-<pin name="FAULTL+" x="73.66" y="33.02" length="middle" rot="R180"/>
-<pin name="FAULTL-" x="73.66" y="35.56" length="middle" rot="R180"/>
-<pin name="COMML+" x="73.66" y="38.1" length="middle" rot="R180"/>
-<pin name="COMML-" x="73.66" y="40.64" length="middle" rot="R180"/>
-<pin name="COMMH-" x="73.66" y="43.18" length="middle" rot="R180"/>
-<pin name="COMMH+" x="73.66" y="45.72" length="middle" rot="R180"/>
-<pin name="FAULTH-" x="73.66" y="48.26" length="middle" rot="R180"/>
-<pin name="FAULTH+" x="73.66" y="50.8" length="middle" rot="R180"/>
-<pin name="V5VAO" x="73.66" y="53.34" length="middle" rot="R180"/>
-<pin name="AUX7" x="73.66" y="55.88" length="middle" rot="R180"/>
-<pin name="AUX6" x="73.66" y="58.42" length="middle" rot="R180"/>
-<wire x1="68.58" y1="0" x2="68.58" y2="71.12" width="0.254" layer="94"/>
-<pin name="AUX5" x="58.42" y="76.2" length="middle" rot="R270"/>
-<pin name="AUX4" x="55.88" y="76.2" length="middle" rot="R270"/>
-<pin name="AUX3" x="53.34" y="76.2" length="middle" rot="R270"/>
-<pin name="AUX2" x="50.8" y="76.2" length="middle" rot="R270"/>
-<pin name="AUX1" x="48.26" y="76.2" length="middle" rot="R270"/>
-<pin name="AUX0" x="45.72" y="76.2" length="middle" rot="R270"/>
-<pin name="VREF" x="43.18" y="76.2" length="middle" rot="R270"/>
-<pin name="OUT2" x="40.64" y="76.2" length="middle" rot="R270"/>
-<pin name="AGND3" x="38.1" y="76.2" length="middle" rot="R270"/>
-<pin name="VP" x="35.56" y="76.2" length="middle" rot="R270"/>
-<pin name="NPNB" x="33.02" y="76.2" length="middle" rot="R270"/>
-<pin name="AGND2" x="30.48" y="76.2" length="middle" rot="R270"/>
-<pin name="OUT1" x="27.94" y="76.2" length="middle" rot="R270"/>
-<pin name="AGND1" x="25.4" y="76.2" length="middle" rot="R270"/>
-<pin name="NC2" x="22.86" y="76.2" length="middle" rot="R270"/>
-<pin name="TOP" x="20.32" y="76.2" length="middle" rot="R270"/>
-<pin name="VSENSE16" x="17.78" y="76.2" length="middle" rot="R270"/>
-<pin name="EQ16" x="15.24" y="76.2" length="middle" rot="R270"/>
-<pin name="VSENSE15" x="12.7" y="76.2" length="middle" rot="R270"/>
-<pin name="EQ15" x="10.16" y="76.2" length="middle" rot="R270"/>
-<wire x1="68.58" y1="71.12" x2="-2.54" y2="71.12" width="0.254" layer="94"/>
+<pin name="VSENSE14" x="-5.08" y="198.12" length="middle"/>
+<pin name="EQ14" x="-5.08" y="187.96" length="middle"/>
+<pin name="VSENSE13" x="-5.08" y="177.8" length="middle"/>
+<pin name="EQ13" x="-5.08" y="167.64" length="middle"/>
+<pin name="VSENSE12" x="-5.08" y="157.48" length="middle"/>
+<pin name="EQ12" x="-5.08" y="147.32" length="middle"/>
+<pin name="VSENSE11" x="-5.08" y="137.16" length="middle"/>
+<pin name="EQ11" x="-5.08" y="127" length="middle"/>
+<pin name="VSENSE10" x="-5.08" y="116.84" length="middle"/>
+<pin name="EQ10" x="-5.08" y="106.68" length="middle"/>
+<pin name="VSENSE9" x="-5.08" y="96.52" length="middle"/>
+<pin name="EQ9" x="-5.08" y="86.36" length="middle"/>
+<pin name="VSENSE8" x="-5.08" y="76.2" length="middle"/>
+<pin name="EQ8" x="-5.08" y="66.04" length="middle"/>
+<pin name="VSENSE7" x="-5.08" y="55.88" length="middle"/>
+<pin name="EQ7" x="-5.08" y="45.72" length="middle"/>
+<pin name="VSENSE6" x="-5.08" y="35.56" length="middle"/>
+<pin name="EQ6" x="-5.08" y="25.4" length="middle"/>
+<pin name="VSENSE5" x="-5.08" y="15.24" length="middle"/>
+<pin name="EQ5" x="-5.08" y="5.08" length="middle"/>
+<wire x1="0" y1="213.36" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="VSENSE4" x="10.16" y="-5.08" length="middle" rot="R90"/>
+<pin name="EQ4" x="20.32" y="-5.08" length="middle" rot="R90"/>
+<pin name="VSENSE3" x="30.48" y="-5.08" length="middle" rot="R90"/>
+<pin name="EQ3" x="40.64" y="-5.08" length="middle" rot="R90"/>
+<pin name="VSENSE2" x="50.8" y="-5.08" length="middle" rot="R90"/>
+<pin name="EQ2" x="60.96" y="-5.08" length="middle" rot="R90"/>
+<pin name="VSENSE1" x="71.12" y="-5.08" length="middle" rot="R90"/>
+<pin name="EQ1" x="81.28" y="-5.08" length="middle" rot="R90"/>
+<pin name="VSENSE0" x="91.44" y="-5.08" length="middle" rot="R90"/>
+<pin name="DGND1" x="101.6" y="-5.08" length="middle" rot="R90"/>
+<pin name="VM" x="111.76" y="-5.08" length="middle" rot="R90"/>
+<pin name="CHP" x="121.92" y="-5.08" length="middle" rot="R90"/>
+<pin name="CHM" x="132.08" y="-5.08" length="middle" rot="R90"/>
+<pin name="VDIG" x="142.24" y="-5.08" length="middle" rot="R90"/>
+<pin name="DG_ND2" x="152.4" y="-5.08" length="middle" rot="R90"/>
+<pin name="NC1" x="162.56" y="-5.08" length="middle" rot="R90"/>
+<pin name="DG_ND3" x="172.72" y="-5.08" length="middle" rot="R90"/>
+<pin name="TX" x="182.88" y="-5.08" length="middle" rot="R90"/>
+<pin name="RX" x="193.04" y="-5.08" length="middle" rot="R90"/>
+<pin name="FAULT_N" x="203.2" y="-5.08" length="middle" rot="R90"/>
+<wire x1="0" y1="0" x2="213.36" y2="0" width="0.254" layer="94"/>
+<pin name="VIO" x="218.44" y="5.08" length="middle" rot="R180"/>
+<pin name="GPIO5" x="218.44" y="15.24" length="middle" rot="R180"/>
+<pin name="GPIO4" x="218.44" y="25.4" length="middle" rot="R180"/>
+<pin name="GPIO3" x="218.44" y="35.56" length="middle" rot="R180"/>
+<pin name="GPIO2" x="218.44" y="45.72" length="middle" rot="R180"/>
+<pin name="GPIO1" x="218.44" y="55.88" length="middle" rot="R180"/>
+<pin name="GPIO0" x="218.44" y="66.04" length="middle" rot="R180"/>
+<pin name="CGND" x="218.44" y="76.2" length="middle" rot="R180"/>
+<pin name="WAKEUP" x="218.44" y="86.36" length="middle" rot="R180"/>
+<pin name="FAULTL+" x="218.44" y="96.52" length="middle" rot="R180"/>
+<pin name="FAULTL-" x="218.44" y="106.68" length="middle" rot="R180"/>
+<pin name="COMML+" x="218.44" y="116.84" length="middle" rot="R180"/>
+<pin name="COMML-" x="218.44" y="127" length="middle" rot="R180"/>
+<pin name="COMMH-" x="218.44" y="137.16" length="middle" rot="R180"/>
+<pin name="COMMH+" x="218.44" y="147.32" length="middle" rot="R180"/>
+<pin name="FAULTH-" x="218.44" y="157.48" length="middle" rot="R180"/>
+<pin name="FAULTH+" x="218.44" y="167.64" length="middle" rot="R180"/>
+<pin name="V5VAO" x="218.44" y="177.8" length="middle" rot="R180"/>
+<pin name="AUX7" x="218.44" y="187.96" length="middle" rot="R180"/>
+<pin name="AUX6" x="218.44" y="198.12" length="middle" rot="R180"/>
+<wire x1="213.36" y1="0" x2="213.36" y2="213.36" width="0.254" layer="94"/>
+<pin name="AUX5" x="205.74" y="218.44" length="middle" rot="R270"/>
+<pin name="AUX4" x="195.58" y="218.44" length="middle" rot="R270"/>
+<pin name="AUX3" x="185.42" y="218.44" length="middle" rot="R270"/>
+<pin name="AUX2" x="175.26" y="218.44" length="middle" rot="R270"/>
+<pin name="AUX1" x="165.1" y="218.44" length="middle" rot="R270"/>
+<pin name="AUX0" x="154.94" y="218.44" length="middle" rot="R270"/>
+<pin name="VREF" x="144.78" y="218.44" length="middle" rot="R270"/>
+<pin name="OUT2" x="134.62" y="218.44" length="middle" rot="R270"/>
+<pin name="AGND3" x="124.46" y="218.44" length="middle" rot="R270"/>
+<pin name="VP" x="114.3" y="218.44" length="middle" rot="R270"/>
+<pin name="NPNB" x="104.14" y="218.44" length="middle" rot="R270"/>
+<pin name="AGND2" x="93.98" y="218.44" length="middle" rot="R270"/>
+<pin name="OUT1" x="83.82" y="218.44" length="middle" rot="R270"/>
+<pin name="AGND1" x="73.66" y="218.44" length="middle" rot="R270"/>
+<pin name="NC2" x="63.5" y="218.44" length="middle" rot="R270"/>
+<pin name="TOP" x="53.34" y="218.44" length="middle" rot="R270"/>
+<pin name="VSENSE16" x="43.18" y="218.44" length="middle" rot="R270"/>
+<pin name="EQ16" x="33.02" y="218.44" length="middle" rot="R270"/>
+<pin name="VSENSE15" x="22.86" y="218.44" length="middle" rot="R270"/>
+<pin name="EQ15" x="12.7" y="218.44" length="middle" rot="R270"/>
+<wire x1="213.36" y1="213.36" x2="0" y2="213.36" width="0.254" layer="94"/>
 </symbol>
 <symbol name="ZENER_DIODE">
 <wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
@@ -363,17 +363,16 @@
 <wire x1="2.54" y1="5.08" x2="0" y2="7.62" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="PWR3014W1000JE">
-<wire x1="-43.18" y1="0" x2="-40.64" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-40.64" y1="2.54" x2="-35.56" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-35.56" y1="-2.54" x2="-30.48" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-30.48" y1="2.54" x2="-25.4" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-25.4" y1="-2.54" x2="-20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="2.54" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-2.54" x2="-12.7" y2="0" width="0.254" layer="94"/>
-<wire x1="-43.18" y1="0" x2="-53.34" y2="0" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<pin name="P$1" x="-2.54" y="0" length="point"/>
+<pin name="P$1" x="-40.64" y="0" length="point"/>
 <pin name="P$2" x="-53.34" y="0" length="point"/>
+<wire x1="-53.34" y1="0" x2="-51.054" y2="0" width="0.1524" layer="94"/>
+<wire x1="-51.054" y1="0" x2="-50.038" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-50.038" y1="1.016" x2="-48.26" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="-48.26" y1="-0.762" x2="-46.482" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-46.482" y1="1.016" x2="-44.704" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="-44.704" y1="-0.762" x2="-42.926" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-42.926" y1="1.016" x2="-41.91" y2="0" width="0.1524" layer="94"/>
+<wire x1="-41.91" y1="0" x2="-40.64" y2="0" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
