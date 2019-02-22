@@ -2677,6 +2677,17 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="U$50" library="Pod4" deviceset="CL21B105KBFNNNG" device="" value="22nF">
 <attribute name="CHP-CHM" value="22nF"/>
 </part>
+<part name="U$51" library="Pod4" deviceset="CL21B105KBFNNNG" device="">
+<attribute name="VMCAP1" value="4.7uF"/>
+</part>
+<part name="U$52" library="Pod4" deviceset="CL21B105KBFNNNG" device="">
+<attribute name="VMCAP2" value=".1uF"/>
+</part>
+<part name="U$53" library="Pod4" deviceset="PWR3014W1000JE" device="" value="1Ω">
+<attribute name="VDIG-VP-RESIST" value="1Ω"/>
+</part>
+<part name="U$54" library="Pod4" deviceset="CL21B105KBFNNNG" device=""/>
+<part name="U$55" library="Pod4" deviceset="CL21B105KBFNNNG" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2865,8 +2876,19 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <instance part="TOPCELL" gate="G$1" x="223.52" y="251.46"/>
 <instance part="U$49" gate="G$1" x="419.1" y="66.04"/>
 <instance part="U$50" gate="G$1" x="546.1" y="53.34" rot="R90">
-<attribute name="CHP-CHM" x="546.1" y="53.34" size="1.778" layer="96" rot="R90"/>
+<attribute name="CHP-CHM" x="543.56" y="50.8" size="1.778" layer="96"/>
 </instance>
+<instance part="U$51" gate="G$1" x="525.78" y="50.8">
+<attribute name="VMCAP1" x="525.78" y="50.8" size="1.778" layer="96"/>
+</instance>
+<instance part="U$52" gate="G$1" x="535.94" y="50.8">
+<attribute name="VMCAP2" x="535.94" y="50.8" size="1.778" layer="96"/>
+</instance>
+<instance part="U$53" gate="G$1" x="561.34" y="55.88" rot="R90">
+<attribute name="VDIG-VP-RESIST" x="561.34" y="43.18" size="1.778" layer="96"/>
+</instance>
+<instance part="U$54" gate="G$1" x="566.42" y="33.02"/>
+<instance part="U$55" gate="G$1" x="571.5" y="33.02"/>
 </instances>
 <busses>
 </busses>
@@ -2986,6 +3008,42 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <pinref part="U$49" gate="G$1" pin="CGND"/>
 <wire x1="637.54" y1="142.24" x2="642.62" y2="142.24" width="0.1524" layer="91"/>
 <label x="642.62" y="142.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$49" gate="G$1" pin="DGND1"/>
+<wire x1="520.7" y1="60.96" x2="520.7" y2="55.88" width="0.1524" layer="91"/>
+<label x="520.7" y="45.72" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$49" gate="G$1" pin="DG_ND2"/>
+<wire x1="571.5" y1="60.96" x2="571.5" y2="55.88" width="0.1524" layer="91"/>
+<label x="571.5" y="45.72" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$49" gate="G$1" pin="DG_ND3"/>
+<wire x1="591.82" y1="60.96" x2="591.82" y2="55.88" width="0.1524" layer="91"/>
+<label x="591.82" y="45.72" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$51" gate="G$1" pin="P$2"/>
+<wire x1="525.78" y1="47.625" x2="525.78" y2="40.64" width="0.1524" layer="91"/>
+<label x="525.78" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$52" gate="G$1" pin="P$2"/>
+<wire x1="535.94" y1="47.625" x2="535.94" y2="40.64" width="0.1524" layer="91"/>
+<label x="535.94" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$54" gate="G$1" pin="P$2"/>
+<wire x1="566.42" y1="29.845" x2="566.42" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="27.94" x2="568.96" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="27.94" x2="568.96" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="27.94" x2="571.5" y2="27.94" width="0.1524" layer="91"/>
+<junction x="568.96" y="27.94"/>
+<pinref part="U$55" gate="G$1" pin="P$2"/>
+<wire x1="571.5" y1="27.94" x2="571.5" y2="29.845" width="0.1524" layer="91"/>
+<label x="568.96" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -4358,16 +4416,17 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <label x="63.5" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$111" class="0">
-<segment>
-<pinref part="U$49" gate="G$1" pin="DGND1"/>
-<wire x1="520.7" y1="60.96" x2="520.7" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$112" class="0">
 <segment>
 <pinref part="U$49" gate="G$1" pin="VM"/>
 <wire x1="530.86" y1="60.96" x2="530.86" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="530.86" y1="55.88" x2="525.78" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="525.78" y1="55.88" x2="525.78" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="530.86" y1="55.88" x2="535.94" y2="55.88" width="0.1524" layer="91"/>
+<junction x="530.86" y="55.88"/>
+<wire x1="535.94" y1="55.88" x2="535.94" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U$51" gate="G$1" pin="P$1"/>
+<pinref part="U$52" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$113" class="0">
@@ -4389,37 +4448,33 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <net name="N$115" class="0">
 <segment>
 <pinref part="U$49" gate="G$1" pin="VDIG"/>
-<wire x1="561.34" y1="60.96" x2="561.34" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="561.34" y1="60.96" x2="561.34" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U$53" gate="G$1" pin="P$1"/>
+<wire x1="561.34" y1="58.42" x2="561.34" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="561.34" y1="58.42" x2="566.42" y2="58.42" width="0.1524" layer="91"/>
+<junction x="561.34" y="58.42"/>
+<wire x1="566.42" y1="58.42" x2="566.42" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="43.18" x2="568.96" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="43.18" x2="568.96" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U$54" gate="G$1" pin="P$1"/>
+<wire x1="566.42" y1="35.56" x2="568.96" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U$55" gate="G$1" pin="P$1"/>
+<wire x1="571.5" y1="35.56" x2="568.96" y2="35.56" width="0.1524" layer="91"/>
+<junction x="568.96" y="35.56"/>
 </segment>
 </net>
-<net name="N$116" class="0">
-<segment>
-<pinref part="U$49" gate="G$1" pin="DG_ND2"/>
-<wire x1="571.5" y1="60.96" x2="571.5" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$118" class="0">
-<segment>
-<pinref part="U$49" gate="G$1" pin="DG_ND3"/>
-<wire x1="591.82" y1="60.96" x2="591.82" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$119" class="0">
+<net name="UART-OUTPUT" class="0">
 <segment>
 <pinref part="U$49" gate="G$1" pin="TX"/>
 <wire x1="601.98" y1="60.96" x2="601.98" y2="55.88" width="0.1524" layer="91"/>
+<label x="601.98" y="55.88" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
-<net name="N$120" class="0">
+<net name="UART-INPUT" class="0">
 <segment>
 <pinref part="U$49" gate="G$1" pin="RX"/>
 <wire x1="612.14" y1="60.96" x2="612.14" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$121" class="0">
-<segment>
-<pinref part="U$49" gate="G$1" pin="FAULT_N"/>
-<wire x1="622.3" y1="60.96" x2="622.3" y2="55.88" width="0.1524" layer="91"/>
+<label x="612.14" y="55.88" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="N$122" class="0">
@@ -4470,16 +4525,11 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <wire x1="637.54" y1="152.4" x2="642.62" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$131" class="0">
+<net name="FAULTL+" class="0">
 <segment>
 <pinref part="U$49" gate="G$1" pin="FAULTL+"/>
 <wire x1="637.54" y1="162.56" x2="642.62" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$132" class="0">
-<segment>
-<pinref part="U$49" gate="G$1" pin="FAULTL-"/>
-<wire x1="637.54" y1="172.72" x2="642.62" y2="172.72" width="0.1524" layer="91"/>
+<label x="642.62" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="COMML+" class="0">
@@ -4510,16 +4560,18 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <label x="642.62" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$137" class="0">
+<net name="FAULTH-" class="0">
 <segment>
 <pinref part="U$49" gate="G$1" pin="FAULTH-"/>
 <wire x1="637.54" y1="223.52" x2="642.62" y2="223.52" width="0.1524" layer="91"/>
+<label x="642.62" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$138" class="0">
+<net name="FAULTH+" class="0">
 <segment>
 <pinref part="U$49" gate="G$1" pin="FAULTH+"/>
 <wire x1="637.54" y1="233.68" x2="642.62" y2="233.68" width="0.1524" layer="91"/>
+<label x="642.62" y="233.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$139" class="0">
@@ -4689,6 +4741,13 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <pinref part="VSENSE15" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="220.98" x2="276.86" y2="210.82" width="0.1524" layer="91"/>
 <label x="276.86" y="220.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VP" class="0">
+<segment>
+<pinref part="U$53" gate="G$1" pin="P$2"/>
+<wire x1="561.34" y1="43.18" x2="561.34" y2="38.1" width="0.1524" layer="91"/>
+<label x="561.34" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

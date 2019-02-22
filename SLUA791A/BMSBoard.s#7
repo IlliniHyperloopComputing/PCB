@@ -3094,11 +3094,9 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <label x="642.62" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="647.7" y1="243.84" x2="648.335" y2="243.84" width="0.1524" layer="91"/>
 <label x="652.78" y="243.84" size="1.778" layer="95"/>
 <pinref part="U$56" gate="G$1" pin="P$2"/>
 <wire x1="648.335" y1="243.84" x2="652.78" y2="243.84" width="0.1524" layer="91"/>
-<junction x="648.335" y="243.84"/>
 </segment>
 <segment>
 <pinref part="U$57" gate="G$1" pin="P$1"/>

@@ -3014,7 +3014,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="U$62" library="Pod4" deviceset="PWR3014W1000JE" device="">
 <attribute name="VP-RESIST" value=".39Ω"/>
 </part>
-<part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="GPIO_0-6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -3235,7 +3235,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <instance part="U$62" gate="G$1" x="538.48" y="312.42" rot="R270">
 <attribute name="VP-RESIST" x="541.02" y="325.12" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="JP1" gate="A" x="688.34" y="101.6"/>
+<instance part="GPIO_0-6" gate="A" x="688.34" y="101.6"/>
 </instances>
 <busses>
 </busses>
@@ -4863,7 +4863,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <segment>
 <pinref part="U$49" gate="G$1" pin="GPIO5"/>
 <wire x1="637.54" y1="81.28" x2="680.72" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="6"/>
+<pinref part="GPIO_0-6" gate="A" pin="6"/>
 <wire x1="680.72" y1="81.28" x2="680.72" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="680.72" y1="96.52" x2="685.8" y2="96.52" width="0.1524" layer="91"/>
 </segment>
@@ -4873,14 +4873,14 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <pinref part="U$49" gate="G$1" pin="GPIO4"/>
 <wire x1="637.54" y1="91.44" x2="675.64" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="675.64" y1="91.44" x2="675.64" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="5"/>
+<pinref part="GPIO_0-6" gate="A" pin="5"/>
 <wire x1="675.64" y1="99.06" x2="685.8" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$125" class="0">
 <segment>
 <pinref part="U$49" gate="G$1" pin="GPIO3"/>
-<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="GPIO_0-6" gate="A" pin="4"/>
 <wire x1="637.54" y1="101.6" x2="685.8" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4888,7 +4888,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <segment>
 <pinref part="U$49" gate="G$1" pin="GPIO2"/>
 <wire x1="637.54" y1="111.76" x2="675.64" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="GPIO_0-6" gate="A" pin="3"/>
 <wire x1="675.64" y1="111.76" x2="675.64" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="675.64" y1="104.14" x2="685.8" y2="104.14" width="0.1524" layer="91"/>
 </segment>
@@ -4898,14 +4898,14 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <pinref part="U$49" gate="G$1" pin="GPIO1"/>
 <wire x1="637.54" y1="121.92" x2="680.72" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="680.72" y1="121.92" x2="680.72" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="GPIO_0-6" gate="A" pin="2"/>
 <wire x1="680.72" y1="106.68" x2="685.8" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$128" class="0">
 <segment>
 <pinref part="U$49" gate="G$1" pin="GPIO0"/>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="GPIO_0-6" gate="A" pin="1"/>
 <wire x1="637.54" y1="132.08" x2="685.8" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="685.8" y1="132.08" x2="685.8" y2="109.22" width="0.1524" layer="91"/>
 </segment>

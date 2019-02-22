@@ -157,6 +157,14 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<description>Steps for Daisy Chaining:
+
+&lt;p&gt;Check pins:
+&lt;p&gt;COMMH+, COMMH-, COMML+, COMML-
+&lt;p&gt;FAULT_N, FAULTH+, FAULTH-, FAULTL+, FAULTL-
+&lt;p&gt;VIO
+&lt;p&gt;_
+&lt;p&gt;Connect pins as described.</description>
 <libraries>
 <library name="frames" urn="urn:adsk.eagle:library:229">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
